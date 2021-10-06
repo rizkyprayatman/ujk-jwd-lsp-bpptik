@@ -1,0 +1,192 @@
+@font-face {
+  font-family: "Nunito Bold";
+  src: url("../font/Nunito-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Nunito Regular";
+  src: url("../font/Nunito-Regular.ttf");
+}
+
+.nBold {
+  font-family: "Nunito Bold";
+}
+
+.nRegular {
+  font-family: "Nunito Regular";
+  padding: 50px 0px;
+}
+
+.tombol {
+  color: white;
+  text-decoration: none;
+}
+
+.tombol:hover {
+  color: aliceblue;
+}
+
+.navbar img {
+  width: 8%;
+  margin: 0px 30px;
+}
+
+.navbar {
+  box-shadow: 0 1px 5px rgb(0 0 0 / 0.2);
+}
+
+.nav-item {
+  margin: 0px 10px;
+}
+
+.navbar-side {
+  display: flex;
+  justify-content: end;
+  margin-right: 30px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: row;
+}
+
+.hero1 {
+  font-family: "Nunito Regular";
+  margin: 25px 50px;
+  width: 45%;
+}
+
+.nRegular img {
+  width: 35%;
+}
+
+.hero1 h1 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 65px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.hero1 p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.hero2 {
+  margin: 25px 50px;
+  width: 65%;
+}
+
+.hero2 img {
+  width: 70%;
+  margin-left: 125px;
+  margin-top: 15px;
+}
+
+#heroDua {
+  padding: 25px 0px;
+}
+
+#heroDua h1 {
+  font-family: "Nunito Regular";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 65px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.list-group a {
+  margin-bottom: 10px;
+  border: 1px solid #c4c4c4;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.list-group-item-light.list-group-item-action.active {
+  color: #000000;
+  background: #ecf4fc;
+  border: 1px solid #c4c4c4;
+}
+
+#skema {
+  margin: 20px 40px;
+}
+
+#skema h1 {
+  margin-bottom: 30px;
+  font-family: "Nunito Regular";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 65px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+#skema div {
+  font-family: "Nunito Regular";
+}
+
+.sideBar {
+  width: 30%;
+  margin: 0px 25px;
+}
+
+.infoBar {
+  width: 70%;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+}
+
+.infoBar div {
+  margin: 20px 30px;
+}
+
+#galeri {
+  margin: 20px 40px;
+}
+
+#galeri h1 {
+  margin-bottom: 30px;
+  font-family: "Nunito Regular";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.info {
+  font-family: "Nunito Regular";
+  padding: 10px;
+}
+
+.cpy {
+  margin: 2px 20px;
+}
+
+#kontak {
+  width: 30%;
+}
+
+#kontak img {
+  width: 6%;
+}
+
+footer {
+  font-family: "Nunito Regular";
+  background-color: black;
+  color: white;
+}
+
+footer h1 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+}
